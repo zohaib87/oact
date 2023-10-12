@@ -3,6 +3,7 @@ name: Create Release Zip
 on:
   release:
     types: [published]
+  workflow_dispatch: # Allow manual run
 
 jobs:
   release-project:
