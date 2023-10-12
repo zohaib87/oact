@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------
+# Meta Boxes
+--------------------------------------------------------------*/
+.oact-field:not(:last-of-type) {
+  margin: 0 0 12px;
+}
+.oact-label,
+.oact-input {
+	display: inline-block;
+}
+.oact-label {
+  width: 30%;
+  margin-bottom: 5px;
+}
+.oact-label, .oact-input {
+  vertical-align: top;
+  float: left;
+  box-sizing: border-box;
+}
+.oact-field:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.oact-field-sm {
+	width: 65px;
+}
+.oact-field-md {
+	width: 120px;
+}
+.oact-field-full {
+	width: 100%;
+}
+.oact-field .select2-container--default .select2-selection--single,
+.oact-field .select2-container--default .select2-selection--multiple,
+.oact-field input[type=color],
+.oact-field input[type=date],
+.oact-field input[type=datetime-local],
+.oact-field input[type=datetime],
+.oact-field input[type=email],
+.oact-field input[type=month],
+.oact-field input[type=number],
+.oact-field input[type=password],
+.oact-field input[type=search],
+.oact-field input[type=tel],
+.oact-field input[type=text],
+.oact-field input[type=time],
+.oact-field input[type=url],
+.oact-field input[type=week],
+.oact-field input[type=checkbox],
+.wp-core-ui .oact-field select,
+.oact-field textarea {
+	border-radius: 0px;
+  border: 1px solid #ccc;
+  margin: 0;
+}
+.oact-field .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  margin-bottom: 0;
+}
+.toplevel_page_oact-options .select2-container--default .select2-selection--single,
+.oact-field .select2-container--default .select2-selection--single,
+.wp-core-ui .oact-field select {
+	min-height: 30px;
+}
+/*--------------------------------------------------------------
+# Freemius
+--------------------------------------------------------------*/
+#fs_connect {
+  width: auto !important;
+  text-align: center !important;
+  margin: 20px 20px 0 2px !important;
+}
+#fs_account .postbox {
+  max-width: 100%;
+}
